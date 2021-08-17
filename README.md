@@ -2,35 +2,18 @@
 
 Boilerplate para se desenvolver com NodeJS procurando automatizar tarefas complexas e ganhar assim produtividade
 
-### 📦 Ao entrar na pasta do projeto deve-se instalar as dependências do webpack 
+### 📦 Ao entrar na pasta do projeto deve-se instalar as dependências
 
 ```
-$ yarn add core-js regenerator-runtime
-$ yarn webpack_install
+$ yarn install ou npm install
 ```
 
-### 🔨 How to use
+### 🔨 Como usar?
 
-Runs next which starts Next.js in development mode
+Ao entrar na pasta do projeto devemos executar o comando abaixo presente no arquivo package.json
+assim o webpack ficará escutando as mudanças no entry point /src/index.js
 
 ```bash
-$ yarn dev
+$ yarn run webpack_w
 ```
 
-Runs next build which builds the application for production usage
-
-```bash
-$ yarn build
-```
-
-Runs next start which starts a Next.js production server
-
-```bash
-$ yarn start
-```
-
-Runs next build and export which exports a files in a `out` folder to deploy
-
-```bash
-$ yarn deploy
-```
